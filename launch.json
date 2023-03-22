@@ -8,7 +8,7 @@
             "name": "debug exec gdb",
             "type": "cppdbg",
             "request": "launch",
-            // TODO: UPDATE "program" VALUE TO WHERE YOUR TEST SUITE EXECUTABLE LIVES
+            // TODO: UPDATE "program" VALUE TO WHERE YOUR EXEC EXECUTABLE LIVES
             "program": "/home/mnowak1/cs128/mp2-dna-forensics-michaelrnowak/bin/exec",
             "args": [],
             "stopAtEntry": true,
