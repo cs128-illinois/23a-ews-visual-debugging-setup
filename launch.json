@@ -8,8 +8,7 @@
             "name": "debug exec gdb",
             "type": "cppdbg",
             "request": "launch",
-            // TODO: UPDATE "program" VALUE TO WHERE YOUR EXEC EXECUTABLE LIVES
-            "program": "/home/mnowak1/cs128/mp2-dna-forensics-michaelrnowak/bin/exec",
+            "program": "${workspaceFolder}/bin/exec",
             "args": [],
             "stopAtEntry": true,
             "cwd": "${workspaceFolder}",
@@ -32,8 +31,7 @@
             "name": "debug tests gdb",
             "type": "cppdbg",
             "request": "launch",
-            // TODO: UPDATE "program" VALUE TO WHERE YOUR TEST SUITE EXECUTABLE LIVES
-            "program": "/home/mnowak1/cs128/mp2-dna-forensics-michaelrnowak/bin/tests",
+            "program": "${workspaceFolder}/bin/tests",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
